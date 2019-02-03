@@ -2,11 +2,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	background: url('../img/background-01.jpg') no-repeat center 433px;
 }
 
 .container {
 	width: 2000px;
 	margin: 0 auto;
+}
+
+.main-header {
+	height: 1568px;
 }
 
 .top-section {
@@ -61,4 +66,63 @@ body {
 	font-weight: 700;
 	line-height: 18px;
 	color: rgba(74, 88, 99, 0.15);
+}
+
+.search-field {
+	width: 60px;
+	height: 60px;
+	margin-top: 57px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	box-shadow: 0px 0px 65px 0px #dae5ef;
+}
+
+/* ================== HEADER / BOTTOM SECTION ================= */
+
+.bottom-section {
+	min-width: 894px;
+	height: 400px;
+	padding-top: 172px;
+	text-align: center;
+}
+
+.bottom-section .bottom-section__heading {
+	margin-bottom: 29px;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 18px;
+	color:  #000000;
+}
+
+.bottom-section p {
+	margin-bottom: 84px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	color:  rgba(74, 88, 99, 0.15);
+}
+
+.btn {
+	display: inline-block;
+	width: 229px;
+	height: 51px;
+	padding-top: 17px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	text-align: center;
+	color: #43a9ff;
+	background-color: #FFF;
+	-webkit-border-radius: 22px;
+	        border-radius: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+	box-shadow: 0px 0px 35px 0px rgba(218, 229, 239, 0.35);
+}
+
+.btn-explore:hover {
+	box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.55);
 }
