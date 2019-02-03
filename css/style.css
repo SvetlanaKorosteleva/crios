@@ -1,3 +1,9 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 .container {
 	width: 2000px;
 	margin: 0 auto;
@@ -34,5 +40,25 @@
 	text-align: center;
 	box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.55);
 	border-radius: 0 0 50% 50% / 0 0 100% 100%;
-	clip: rect(0, 414px, 212px, 0);
+	text-decoration: none;
+}
+
+.header-logo .main-title {
+	margin: 0;
+	padding: 0;
+	padding-top: 57px;
+	font-size: 48px;
+	line-height: 1;
+	font-weight: 400;
+	color: #43a9ff;
+	text-transform: uppercase;
+}
+
+.header-logo p {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	color: rgba(74, 88, 99, 0.15);
 }
