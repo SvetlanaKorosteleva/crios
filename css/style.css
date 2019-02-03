@@ -1,0 +1,38 @@
+.container {
+	width: 2000px;
+	margin: 0 auto;
+}
+
+.top-section {
+	height: 210px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.fa-bars {
+	display: block;
+	margin-top: 57px;
+	width: 60px;
+	height: 60px;
+	margin-right: 468px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	box-shadow: 0px 0px 65px 0px #dae5ef;
+}
+
+.header-logo {
+	width: 414px;
+	height: 200px;
+	margin-right: 468px;
+	text-align: center;
+	box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.55);
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;
+	clip: rect(0, 414px, 212px, 0);
+}
